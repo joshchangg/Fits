@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2nr-x5-Thx">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -16,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="labelColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="OiZ-rX-LUy" kind="relationship" relationship="viewControllers" id="zPq-8w-97K"/>
@@ -36,7 +37,7 @@
                 <navigationController id="MyJ-pe-gWy" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="magnifyingglass" catalog="system" id="st3-pP-D8W"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="DNv-MK-2cX">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -51,9 +52,9 @@
         <scene sceneID="rUz-4N-SEJ">
             <objects>
                 <navigationController id="I8Q-tM-qRH" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="bell" catalog="system" id="Sgu-wb-NlD"/>
+                    <tabBarItem key="tabBarItem" title="" image="heart" catalog="system" id="Sgu-wb-NlD"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="bFm-2R-lIM">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -70,7 +71,7 @@
                 <navigationController id="OiZ-rX-LUy" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="house" catalog="system" id="5bK-gq-ur7"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZfT-zA-Zza">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -86,7 +87,7 @@
             <objects>
                 <viewController id="yd7-iq-EWd" customClass="HomeViewController" customModule="Fits" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dVZ-Cv-Owu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="9cJ-jd-IVm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -103,7 +104,7 @@
                 <navigationController id="Dmw-xk-a01" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="plus" catalog="system" id="FUq-gh-abk"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="QqD-wv-wkv">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -120,7 +121,7 @@
                 <navigationController id="UKu-zb-OhX" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="person" catalog="system" id="vgd-lM-tV7"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gPI-8Z-lMX">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -136,7 +137,7 @@
             <objects>
                 <viewController id="4pH-34-iIc" customClass="ExploreViewController" customModule="Fits" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yuf-qe-TAw">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="txq-Sr-F2m"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -152,7 +153,7 @@
             <objects>
                 <viewController id="gia-Ei-Nng" customClass="ProfileViewController" customModule="Fits" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rhY-8P-NUu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="SAW-ir-Gqm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -168,23 +169,62 @@
             <objects>
                 <viewController id="rgS-TB-aqr" customClass="CameraViewController" customModule="Fits" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cnl-tn-Cnl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Fit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wwc-su-JmA">
+                                <rect key="frame" x="145" y="494" width="101" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="cBL-PK-vYJ"/>
+                                    <constraint firstAttribute="width" constant="101" id="vc2-M3-rLu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="text" translatesAutoresizingMaskIntoConstraints="NO" id="pRM-Mw-r99">
+                                <rect key="frame" x="75" y="358" width="240" height="128"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="pRM-Mw-r99" secondAttribute="height" multiplier="15:8" id="N7S-Mb-Ljj"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Qa0-aw-dir" appends="YES" id="f8Y-CQ-S2y"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="4Cl-yx-PJJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="pRM-Mw-r99" firstAttribute="top" secondItem="4Cl-yx-PJJ" secondAttribute="top" constant="270" id="2vu-7j-irZ"/>
+                            <constraint firstItem="4Cl-yx-PJJ" firstAttribute="trailing" secondItem="Wwc-su-JmA" secondAttribute="trailing" constant="144" id="7Oi-nk-Dx3"/>
+                            <constraint firstItem="Wwc-su-JmA" firstAttribute="top" secondItem="pRM-Mw-r99" secondAttribute="bottom" constant="8" symbolic="YES" id="AbJ-nj-JRc"/>
+                            <constraint firstItem="4Cl-yx-PJJ" firstAttribute="bottom" secondItem="Wwc-su-JmA" secondAttribute="bottom" constant="229" id="KZK-7T-JPc"/>
+                            <constraint firstItem="Wwc-su-JmA" firstAttribute="leading" secondItem="4Cl-yx-PJJ" secondAttribute="leading" constant="145" id="YBh-TR-mgH"/>
+                            <constraint firstItem="4Cl-yx-PJJ" firstAttribute="trailing" secondItem="pRM-Mw-r99" secondAttribute="trailing" constant="75" id="ZIQ-Nx-6Rh"/>
+                            <constraint firstItem="pRM-Mw-r99" firstAttribute="leading" secondItem="4Cl-yx-PJJ" secondAttribute="leading" constant="75" id="me6-QJ-kWv"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="s74-BD-PO1"/>
+                    <connections>
+                        <outlet property="imageView" destination="pRM-Mw-r99" id="YyM-ZI-yNd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3R7-1y-1yQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Qa0-aw-dir">
+                    <connections>
+                        <action selector="imageTapped:" destination="rgS-TB-aqr" id="zEh-BP-Sb2"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-371" y="1493"/>
+            <point key="canvasLocation" x="-372.30769230769232" y="1492.8909952606634"/>
         </scene>
         <!--Notifications View Controller-->
         <scene sceneID="c1W-in-CCP">
             <objects>
                 <viewController id="X4d-YY-oOS" customClass="NotificationsViewController" customModule="Fits" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aVJ-2n-56S">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="VGF-dC-mAF"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -197,11 +237,15 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bell" catalog="system" width="128" height="124"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="person" catalog="system" width="128" height="117"/>
         <image name="plus" catalog="system" width="128" height="113"/>
+        <image name="text" width="3223" height="2550"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
